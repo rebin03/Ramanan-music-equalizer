@@ -1,9 +1,14 @@
 # Store this code in 'app.py' file
 #from typing_extensions import ParamSpecArgs
 from firebase import Firebase
-from flask import Flask, render_template, request, redirect, url_for, session
+from flask import Flask, render_template,request, redirect, url_for, session
 #from flask_mysqldb import MySQL
 import re
+from flask.helpers import send_from_directory
+from werkzeug.utils import redirect, secure_filename
+import os
+import time
+
 app = Flask(__name__)
 
 
@@ -68,6 +73,25 @@ def register():
     #     msg = 'Please fill out the form !'
     return render_template('register.html', msg=msg)
 
+
+@app.route('/upload')
+def upload_file():
+   return render_template('upload.html')
+	
+@app.route('/uploader', methods = ['GET', 'POST'])
+def upload_file_get():
+   if request.method == 'POST':
+      f = request.files['filename']
+      f.save(secure_filename(f.filename))
+      os.system("ffmpeg -loop 1 -i image.jpeg -i song.mp3 -c:a copy -c:v libx264 -shortest out.mp4")
+      print("DOne ")
+      return redirect("/come", code=302)
+
+@app.route('/come')
+def videoplayer():
+    print("here")
+    time.sleep(1)
+    return send_from_directory(directory="", path="out.mp4")
 
 if __name__ == '__main__':
     app.run(debug=True)
