@@ -18,7 +18,8 @@ BFH/reco31B56mnE8MTZa/2021
 
 ## Link to product walkthrough
 
-https://drive.google.com/file/d/1x2OPgLEMSxqt4z9dr0epfnZ3Y-vnHRE7/view?usp=sharing
+working of project: https://drive.google.com/file/d/1x2OPgLEMSxqt4z9dr0epfnZ3Y-vnHRE7/view?usp=sharing
+PROJECT DEMO: https://www.loom.com/share/85249c4b861140d89c105c57547ab176
 
 ## How it Works ?
 
