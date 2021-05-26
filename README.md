@@ -50,3 +50,7 @@ FFMPEG
 
 ```python main.py```
 
+## THINKS TO DO
+
+•UI optimization
+•Saving video in firebase
