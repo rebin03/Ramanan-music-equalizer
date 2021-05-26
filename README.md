@@ -38,7 +38,7 @@ FFMPEG
 # How to configure
 
 
-pip install flask
+```pip install flask
 
 pip install firebase
 
@@ -48,5 +48,5 @@ pip install pycrypto
 
 pip install sslclient
 
-python main.py
+python main.py```
 
