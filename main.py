@@ -11,13 +11,13 @@ app = Flask(__name__)
 
 
 config = {
-    "apiKey": "AIzaSyC5dGO29bQoHThL69OmQgYw9JGuzOqOu_E",
-    "authDomain": "pyflask-auth.firebaseapp.com",
-    "projectId": "pyflask-auth",
-    "storageBucket": "pyflask-auth.appspot.com",
-    "messagingSenderId": "903763832908",
-    "appId": "1:903763832908:web:127b077e082c15088e84e9",
-    "databaseURL": "https://pyflask-auth-default-rtdb.firebaseio.com/"
+    "apiKey": "Your_API_Key",
+    "authDomain": "YOUR_AUTH_DOMAIN",
+    "projectId": "YOUR_PROJECT_ID",
+    "storageBucket": "STORAGE_BUCKET",
+    "messagingSenderId": "YOUR_MSG_SEND_ID",
+    "appId": "APP_ID",
+    "databaseURL": "DATABASE_ID"
 }
 
 firebase = Firebase(config)
