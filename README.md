@@ -24,7 +24,7 @@ BFH/reco31B56mnE8MTZa/2021
 
 1.  Step 1 - Create a user account and login
 2.  Step 2 - Upload the audio file from local machine
-3. After the convertion, video will be available in your dashboard
+3.  step 3 - After the convertion, video will be available in your dashboard
 
 
 # Libraries used
