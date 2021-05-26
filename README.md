@@ -53,4 +53,5 @@ FFMPEG
 ## THINKS TO DO
 
 •UI optimization
+
 •Saving video in firebase
