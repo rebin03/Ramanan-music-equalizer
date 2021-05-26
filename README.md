@@ -52,6 +52,10 @@ FFMPEG
 
 ## THINKS TO DO
 
-•UI optimization
+• UI optimization
 
-•Saving video in firebase
+• Saving video in firebase
+
+•  Account dashboard
+
+•  Personal dashboard
