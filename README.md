@@ -29,7 +29,9 @@ BFH/reco31B56mnE8MTZa/2021
 # Libraries used
 
 FLASK
+
 FIREBASE
+
 FFMPEG
 
 # How to configure
@@ -46,4 +48,5 @@ pip install pycrypto
 pip install sslclient
 
 python main.py
+
 
