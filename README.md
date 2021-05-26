@@ -35,7 +35,7 @@ FIREBASE
 
 FFMPEG
 
-# How to configure
+# How to RUN
 
 
 ```pip install flask```
